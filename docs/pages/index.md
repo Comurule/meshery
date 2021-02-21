@@ -5,7 +5,7 @@ permalink: /
 display-title: "false"
 ---
 
-{% assign sorted_pages = site.pages | sort: "name" | alphabetical %}
+{% assign sorted_pages = site.pages | sort: "title" | alphabetical %}
 
 
 <div style="display: block; text-align: center; margin-bottom: 30px;">
